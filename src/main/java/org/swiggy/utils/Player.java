@@ -13,4 +13,23 @@ public class Player {
         this.Strength=strength;
         this.Attack=attack;
     }
+    public String getName() {
+        return Name;
+    }
+
+    public int getStrength(){
+        return Strength;
+    }
+
+    public int getAttack(){
+        return Attack;
+    }
+
+    public int getHealth() {
+        return Health;
+    }
+
+    public void setHealth(int health) {
+        this.Health = health;
+    }
 }

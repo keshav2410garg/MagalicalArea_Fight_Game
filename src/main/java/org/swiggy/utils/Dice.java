@@ -13,5 +13,18 @@ public class Dice {
     }
 
 
+    public int rollDie(){
+        int n;
+        n=random.nextInt(MaxOutputValue);
+        if(n==0){
+            return 1;//handle the case when the random number generated is 0
+        }
+
+        return n;
+    }
+
+
+
+
 
 }
