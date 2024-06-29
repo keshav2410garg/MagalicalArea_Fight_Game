@@ -6,7 +6,7 @@ import org.swiggy.utils.Player;
 
 public class LetsPlay {
 
-    public static void gamePlay(String firstplayername,String secondplayername) {
+    public static void gamePlay(String firstplayername,String secondplayername,int firstplayerhealth,int firstplayerstrength,int firstplayerattack,int secondplayerhealth,int secondplayerstrength,int secondplayerattack) {
         //instantiating the dice of both attacker and defender
         Dice AttackerDice = new Dice("Red", 6);
         Dice DefenderDice = new Dice("Red", 6);

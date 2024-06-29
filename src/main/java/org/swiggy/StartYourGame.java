@@ -35,8 +35,8 @@ public class StartYourGame {
             int secondplayerstrength=sc.nextInt();
             System.out.println("Enter the attack value of first player");
             int secondplayerattack=sc.nextInt();
-            gamePlay(FirstPLayer,SecondPlayer);
-
+            System.out.println("GAME BEGINS");
+            gamePlay(FirstPLayer,SecondPlayer,firstplayerhealth,firstplayerstrength,firstplayerattack, secondplayerhealth,secondplayerstrength,secondplayerattack);
 
         }
 }
