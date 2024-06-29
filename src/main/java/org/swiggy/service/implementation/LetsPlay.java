@@ -13,8 +13,8 @@ public class LetsPlay {
 
 
         //Instantiating players with their name, strength and attack
-        Player firstPlayer = new Player(firstplayername, 50, 5, 10);
-        Player SecondPlayer = new Player(secondplayername, 100, 10, 5);
+        Player firstPlayer = new Player(firstplayername, firstplayerhealth, firstplayerstrength, firstplayerattack);
+        Player SecondPlayer = new Player(secondplayername, secondplayerhealth, secondplayerstrength, secondplayerattack);
         Strategy s1 = new MagicalArenaStrategy();
         while (firstPlayer.getHealth() > 0 && SecondPlayer.getHealth() > 0) {
             if (firstPlayer.getHealth() < SecondPlayer.getHealth()) {

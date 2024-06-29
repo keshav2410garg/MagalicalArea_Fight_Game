@@ -23,20 +23,22 @@ public class StartYourGame {
             System.out.println("Enter the first player name");
             String FirstPLayer = sc.nextLine();
             System.out.println("Enter the health of first player:");
-            int firstplayerhealth=sc.nextInt();
+            int FirstPlayerHealth=sc.nextInt();
             System.out.println("Enter the strength value of first player");
-            int firstplayerstrength=sc.nextInt();
+            int FirstPlayerStrength=sc.nextInt();
             System.out.println("Enter the attack value of first player");
-            int firstplayerattack=sc.nextInt();
+            int FirstPlayerAttack=sc.nextInt();
+            sc.nextLine();
             System.out.println("Enter the second player name");
             String SecondPlayer = sc.nextLine();
-            int secondplayerhealth=sc.nextInt();
+            System.out.println("Enter the health value of second player");
+            int SecondPlayerHealth=sc.nextInt();
             System.out.println("Enter the strength value of first player");
-            int secondplayerstrength=sc.nextInt();
+            int SecondPlayerStrength=sc.nextInt();
             System.out.println("Enter the attack value of first player");
-            int secondplayerattack=sc.nextInt();
+            int SecondPlayerAttack=sc.nextInt();
             System.out.println("GAME BEGINS");
-            gamePlay(FirstPLayer,SecondPlayer,firstplayerhealth,firstplayerstrength,firstplayerattack, secondplayerhealth,secondplayerstrength,secondplayerattack);
+            gamePlay(FirstPLayer,SecondPlayer,FirstPlayerHealth,FirstPlayerStrength,FirstPlayerAttack, SecondPlayerHealth,SecondPlayerStrength,SecondPlayerAttack);
 
         }
 }
