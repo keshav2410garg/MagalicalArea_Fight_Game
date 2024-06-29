@@ -23,7 +23,7 @@ public class MagicalArenaStrategy implements Strategy {
             System.out.println("Defender "+Defender.getName()+ " health reduced by " + damageTaken + " to " + Defender.getHealth() + "\n");
         }
         else{
-            System.out.println("No reduction in Strength"+ "\n");
+            System.out.println("No loss of health"+ "\n");
         }
 
     }
