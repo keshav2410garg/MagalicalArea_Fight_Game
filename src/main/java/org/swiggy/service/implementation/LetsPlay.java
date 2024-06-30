@@ -16,15 +16,15 @@ public class LetsPlay {
         Player firstPlayer = new Player(firstplayername, firstplayerhealth, firstplayerstrength, firstplayerattack);
         Player SecondPlayer = new Player(secondplayername, secondplayerhealth, secondplayerstrength, secondplayerattack);
         Strategy s1 = new MagicalArenaStrategy();
-        while (firstPlayer.getHealth() > 0 && SecondPlayer.getHealth() > 0) {
+       /* while (firstPlayer.getHealth() > 0 && SecondPlayer.getHealth() > 0) {
             if (firstPlayer.getHealth() < SecondPlayer.getHealth()) {
                 s1.playingStrategy(firstPlayer, SecondPlayer, AttackerDice, DefenderDice);
-                if (firstPlayer.getHealth() <= 0) {
+                if (SecondPlayer.getHealth() <= 0) {
                     System.out.println(firstPlayer.getName() + " Wins!!");
                     break;
                 }
                 s1.playingStrategy(SecondPlayer, firstPlayer, AttackerDice, DefenderDice);
-                if (SecondPlayer.getHealth() <= 0) {
+                if (firstPlayer.getHealth() <= 0) {
                     System.out.println(SecondPlayer.getName() + " Wins!!");
                     break;
                 }
@@ -41,7 +41,7 @@ public class LetsPlay {
                 }
             }
 
-        }
+        }*/
 
     }
 
