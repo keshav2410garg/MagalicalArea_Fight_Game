@@ -1,10 +1,10 @@
 This file contains the description and the structure of the project and how to run the game.\
 
 
-**INTRODUCTION**\
-In this repository I designed the structure for Maigcal Arena Two player game ,
-The design is based on **SOLID principle** using object oriented approach.
-The design follows the **strategy design pattern**
+#INTRODUCTION
+Welcome to the Magical Arena Two-Player Game repository! 
+This project is designed using the *SOLID principle* with an object-oriented approach 
+and follows the *strategy design pattern* for gameplay strategies.
 
 **PACKAGE & FILE DESCRIPTION**
 **utils.Player.java:** It contains the attributes and getter setter methods which the Player of a game requires\
@@ -15,7 +15,11 @@ The design follows the **strategy design pattern**
 **StartYourGame:** The main file which needs to be executed to start the game after describing the rules of the game\
 
 
-**HOW TO START YOUR GAME**\
-For starting your game run the file "StartYourGame.java" under src/main/java/org/swiggy
+#HOW TO START YOUR GAME
+**1. Clone the Repository:** git clone <repository_url>
+**2. Navigate to Source Directory:** cd src/main/java/org/swiggy
+**3. Compile the Code:** javac StartYourGame.java
+**4. Run the Game:** java StartYourGame
+**5. Follow On-Screen Instructions:** Once the game starts, follow the prompts and instructions provided to play the game.
 
 
