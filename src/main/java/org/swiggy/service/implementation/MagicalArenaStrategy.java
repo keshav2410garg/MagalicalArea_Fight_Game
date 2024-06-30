@@ -9,7 +9,7 @@ public class MagicalArenaStrategy implements Strategy {
     @Override
     public void playingStrategy(Player Attacker, Player Defender, Dice AttackerDice, Dice DefenderDice) {
         int attackRoll = AttackerDice.rollDie();
-        int defenseRoll = DefenderDice.rollDie();
+        int defenseRoll =DefenderDice.rollDie();
 
         int attackDamage =Attacker.getAttack()*attackRoll;
         int defenseStrength = Defender.getStrength() * defenseRoll;

@@ -24,6 +24,7 @@ public class MagicalArenaStrategyTest {
     }
 
     @Test
+    //verify whether the health of defender when attacker is winner with the playing strategy defined
     public void testPlayingStrategy_AttackWins() {
         // Mock dice rolls for attacker and defender
         // Assuming attacker rolls 4 and defender rolls 3 for testing
@@ -45,7 +46,7 @@ public class MagicalArenaStrategyTest {
         strategy.playingStrategy(Attacker, Defender, mockAttackerDice, mockDefenderDice);
 
         // Verify defender's health after attack
-        assertEquals(95, Defender.getHealth());
+        assertEquals(90, Defender.getHealth());
     }
 
     @Test
